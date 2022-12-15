@@ -1,4 +1,4 @@
-// program for creating a bmp file with 3 different colors
+// program for creating a raw file with 3 different colors
 
 #include <iostream>
 #include <cstdlib>
@@ -11,7 +11,7 @@ int main()
 {
   FILE * file;
   int i;
-  file = fopen("filename.bmp","wb");    //opening file for writing binary data
+  file = fopen("filename.raw","wb");    //opening file for writing binary data
   char* ptr = NULL;
   ptr = (char*)malloc(SIZE);  
   
