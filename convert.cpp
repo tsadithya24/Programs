@@ -8,8 +8,8 @@ int main()
 typedef struct                      
     {
     unsigned int   bfSize;           // Size of file 
-    unsigned short bfReserved1;      
-    unsigned short bfReserved2;      
+    unsigned short bfReserved1;      // Reserved space
+    unsigned short bfReserved2;      // Reserved space
     unsigned int   bfOffBits;        // Offset to bitmap data 
     } BITMAPFILEHEADER;
 
