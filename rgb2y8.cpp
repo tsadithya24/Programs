@@ -14,7 +14,7 @@ int main()
  uint8_t* bufferIn = NULL;
  bufferIn = (uint8_t*)malloc(SIZE);
  uint8_t* bufferOut = NULL;
- bufferIn = (uint8_t*)malloc(N);
+ bufferOut = (uint8_t*)malloc(N);
 
  FILE * fileIn = fopen("filename.raw", "rb");  
  fread(bufferIn,640*480*3, 1, fileIn);
