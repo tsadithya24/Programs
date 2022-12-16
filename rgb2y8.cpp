@@ -19,7 +19,7 @@ int main()
  FILE * fileIn = fopen("filename.raw", "rb");  
  fread(bufferIn,640*480*3, 1, fileIn);
  fclose(fileIn);
-     k = 0;
+     gray = 0;
      for( row=0;row<Height;row++)   // looping through each and every pixel of the RGB data
       {
        for( col=0;col<stride;col+=3) 
